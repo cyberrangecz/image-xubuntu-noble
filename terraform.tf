@@ -3,13 +3,13 @@ terraform {
   }
   required_providers {
     kypo = {
-      source  = "vydrazde/kypo"
+      source = "vydrazde/kypo"
     }
     openstack = {
-      source  = "terraform-provider-openstack/openstack"
+      source = "terraform-provider-openstack/openstack"
     }
     gitlab = {
-      source  = "gitlabhq/gitlab"
+      source = "gitlabhq/gitlab"
     }
   }
 }
