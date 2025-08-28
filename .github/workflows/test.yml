@@ -8,4 +8,5 @@ jobs:
     uses: cyberrangecz/ci-images/.github/workflows/test.yml@master
     with:
       tofu_import_image: true
+      use_images_runner: false
     secrets: inherit
