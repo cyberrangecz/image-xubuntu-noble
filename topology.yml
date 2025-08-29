@@ -3,7 +3,7 @@ name: xubuntu-noble
 hosts:
   - name: image-test
     base_box: 
-      image: IMAGE_NAME
+      image: xubuntu-noble-5587c03
       mgmt_user: ubuntu
     flavor: standard.small
 
